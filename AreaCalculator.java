@@ -24,18 +24,17 @@ public class AreaCalculator {
         Scanner sc = new Scanner(System.in);
         Shape shape = new Shape();
 
-        // Area of Circle
         System.out.print("Enter radius of circle: ");
         double radius = sc.nextDouble();
         System.out.println("Area of Circle: " + shape.area(radius));
 
-        // Area of Rectangle
+        
         System.out.println("Enter the length and width of rectangle: ");
         double length = sc.nextDouble();
         double width = sc.nextDouble();
         System.out.println("Area of Rectangle: " + shape.area(length, width));
 
-        // Area of Triangle
+       
         System.out.print("Enter base and height of triangle: ");
         double base = sc.nextDouble();
         double height = sc.nextDouble();
